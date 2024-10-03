@@ -1,13 +1,12 @@
-notas = [""]*5
-ln = len(notas)
+a = [0]*10
+m = [0]*10
+ln = len(a)
+
 for i in range(ln):
-    notas[i] = float(input(f"Digite a nota do {i+1}° aluno: "))
-media = 0
-for i in range(ln):
-    media += notas[i]
-totMedia = media/5
-cont = 0
-for i in range(ln):
-    if notas[i] > totMedia:
-        cont += 1
-print(cont)
+    a[i] = int(input("Digite um número: "))
+x = int(input("Digite o multiplicador: "))
+
+for x in range(ln):
+    m[x] = a[x] * x
+
+print(m)
