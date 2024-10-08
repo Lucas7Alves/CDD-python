@@ -1,5 +1,5 @@
-user =[""]*1
-pw =[""]*1
+user =[""]*5
+pw =[""]*5
 opcao = 1
 tam = len(pw)
 name = ""
