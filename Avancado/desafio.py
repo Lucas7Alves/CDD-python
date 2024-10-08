@@ -1,5 +1,5 @@
-user =[""]*2
-pw =[""]*2
+user =[""]*1
+pw =[""]*1
 opcao = 1
 tam = len(pw)
 name = ""
@@ -25,7 +25,7 @@ while (opcao != 3):
                         
                         for l in range(3,-1,-1):
                             senha = input(f"\nOlá {name} ㋡! \n⤜ Digite sua senha: ")
-                            if senha in pw[posi]:
+                            if senha == pw[posi]:
                                 print("\n✰ Login efetuado com sucesso ✰")
                                 break
                             else:
