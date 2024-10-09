@@ -11,4 +11,4 @@ from biblioteca import *
 #a = [1,2,2,3,4,3,5,6,7,8,7,10]
 #noRepeat(a)
 
-ehPrimo(13)
+print(ehPrimo(13))
