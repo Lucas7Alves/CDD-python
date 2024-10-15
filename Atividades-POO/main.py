@@ -1,11 +1,9 @@
 from biblioteca import *
 
-p1 = Pessoa("Pimpão", 47.6, 12)
+a1 = Gato("Sarah", "Preto")
+c1 = Cachorro("Lucas", "Pardo")
 
-p1.andar()
-p1.comer()
-p1.pararAndar()
-p1.comer()
-p1.dormir()
-p1.pararComer()
-p1.dormir()
+c1.latir()
+
+a1.comer()
+a1.miar()
